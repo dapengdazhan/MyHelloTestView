@@ -7,8 +7,8 @@
 
 import SwiftUI
 @available(iOS 13.0, *)
-struct MyHelloView: View {
-    var body: some View {
+public struct MyHelloView: View {
+    public var body: some View {
         Text("Hello, My world!")
     }
     public init(){
